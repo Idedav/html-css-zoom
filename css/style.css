@@ -43,6 +43,33 @@ main{
     height: calc(100vh - 200px);
     background-color: black;
     overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.user{
+    height: 250px;
+    width: calc(100% / 7);
+    max-width: 400px;
+    min-width: 400px;
+    position: relative;
+    margin: 10px 5px;
+}
+
+.user span{
+    padding: 5px;
+    background-color: rgba(128, 128, 128, .5);
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    color: white;
+}
+
+.user span i{
+    margin-right: 5px;
 }
 
 /* FOOTER */
