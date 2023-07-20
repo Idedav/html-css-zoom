@@ -77,4 +77,78 @@ footer{
     width: 100%;
     height: 100px;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.mic-cam, .end-call{
+    width: 20%;
+    height: 100%;
+}
+
+.panel-center{
+    width: 60%;
+    height: 100%;
+}
+
+.mic-cam li,
+.panel-center li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+
+.mic-cam li a,
+.panel-center li a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+}
+
+.mic-cam li a i,
+.panel-center li a i{
+    font-size: 30px;
+}
+
+.mic-cam li a .fa-angle-up,
+.panel-center li a .fa-angle-up{
+    font-size: 10px;
+}
+
+.panel-center li{
+    margin: 10px;
+}
+
+.panel-center li a{
+    color: white;
+}
+
+.fa-share-from-square{
+    color: #4AC700;
+}
+
+.end-call{
+    background-color: #4A4A4A;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-call a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
 }
